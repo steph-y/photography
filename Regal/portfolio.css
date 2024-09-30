@@ -1,0 +1,174 @@
+.gradient-text {
+    background: linear-gradient(45deg, silver, grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.chapel-img{
+    border-radius:100%; 
+    width:100%; 
+    
+}
+
+.chapel-img:hover{
+    box-shadow: 0 4px 8px grey;
+    border: 3px solid rgb(80, 80, 80); 
+}
+
+.chapel-img {
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+    box-shadow: 0 4px 8px rgb(80, 80, 80);
+}
+
+.landscape{
+    position:relative;
+    border-radius:10%; 
+    width:90%;
+    height:350px;
+    filter:blur(3px);
+    box-shadow: 0 4px 8px grey;
+    cursor:pointer;
+    margin-bottom: 100px;
+}
+
+.landscape:hover{
+    border :2px solid rgb(80, 80, 80);
+    filter:blur(0px);
+
+}
+
+.first-text{
+    font-family:Sevillana; 
+    text-align:center; 
+    margin-top:80px; 
+    margin-left:200px; 
+    font-size:20px; 
+    color:white;
+   
+}
+
+.first-text:hover{
+    color:rgb(246, 227, 123)
+}
+
+.lpara{
+    font-family:Sevillana;
+    text-align:center;
+    font-size:15px; 
+    color:white;
+    margin-bottom:80px;
+}
+
+.lpara:hover{
+    color:rgb(246, 227, 123)
+}
+
+.header-ul a{
+    text-decoration:none; 
+    display:inline-block;
+    color:white;
+    text-align:center;
+    border-radius:5px;
+    transition:1s ; 
+    list-style:none;
+    margin-top:40px;
+}
+
+.header-ul > li{
+    float:left;
+    font-size:20px;
+    margin-left:15px;
+}
+
+.header-ul a:hover{
+    color:gold;
+    
+}
+
+.header-ul{
+    list-style:none;
+}
+
+#table:hover{
+    border :2px solid rgb(80, 80, 80);
+    box-shadow: 0 4px 8px grey;
+}
+
+
+
+
+#lpara{
+    font-family:Sevillana;
+    text-align:center;
+    font-size:15px; 
+    color:white;
+    margin-bottom:80px;
+}
+
+#lpara:hover{
+    color:rgb(246, 227, 123)
+}
+
+#apara{
+    font-family:Sevillana;
+    text-align:center;
+    font-size:15px; 
+    color:white;
+    margin-bottom:80px;
+}
+
+#apara:hover{
+    color:rgb(246, 227, 123)
+}
+
+/* The button used to open the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* The content of the dropdown (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 100px;
+    box-shadow: 0px 5px 10px 0px gold;
+    z-index: 1;
+    height:auto;
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    /* padding: 12px ; */
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+}
+
+/* Change color of links on hover */
+.dropdown-content a:hover {
+    color:rgb(242, 225, 130);
+}
+
+
+.photos{
+    /* position:relative; */
+    border-radius:10%; 
+    width:90%;
+    height:350px;
+    box-shadow: 0 4px 8px grey;
+    cursor:pointer;
+    margin-bottom: 20px;
+}
+
+.photos:hover{
+    border :2px solid rgb(80, 80, 80);
+    filter:blur(0px);
+
+}
+

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>About Us</title>
+            <meta name="viewport" content="width-device-width">
+            <meta name="description" content="About the product">
+            <meta name="keyword" content="photography, information">
+
+            <link rel="stylesheet" href="bootstrap.css">
+            <link rel="stylesheet" href="portfolio.css"> 
+            <link rel="stylesheet" href="about.css">
+        </head>
+        
+        <body>
+            <div class="container-fluid" style="background-color: black; position:relative">
+                
+                <div class="row" style="display:flex; flex-direction:row; justify-content:right; margin-bottom: 50px;">
+                    <div class="col-lg-4 col-md-6 col-sm-9 col-xs-12">
+                        <nav> 
+                            <ul class="header-ul">                       
+                                <li><a href="Index.html">Home</a></li>
+                                <li><a href="ppage2.html">About</a></li>
+                                <li><span class="dropdown">
+                                    <a href="#" id="dropdownButton">Gallery</a>
+                                    <div id="dropdownContent" class="dropdown-content">
+                                        <a href="landscapep.html">Landscape</a>
+                                        <a href="portrait.html">Portrait</a>
+                                        <a href="people.html">People</a>
+                                        <a href="aesthetics.html">Aesthetics</a>
+                                        <a href="food.html">Food</a>
+                                        <a href="nature.html">Nature</a>
+                                        <a href="sky.html">Skies</a>
+                                        <a href="travel.html">Travel</a>
+                                    </div>
+                                </span>
+                                <li><a href="contactp.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <script>
+                    // Get the button and content elements
+                    var dropdownButton = document.getElementById('dropdownButton');
+                        var dropdownContent = document.getElementById('dropdownContent');
+        
+                        // Add a click event to the button
+                        dropdownButton.addEventListener('click', function() {
+                            // Toggle the visibility of the dropdown content
+                            if (dropdownContent.style.display === 'block') {
+                                dropdownContent.style.display = 'none';
+                            } else {
+                                dropdownContent.style.display = 'block';
+                            }
+                        });
+        
+                        // Close the dropdown if the user clicks outside of it
+                        window.onclick = function(event) {
+                            if (!event.target.matches('#dropdownButton')) {
+                                dropdownContent.style.display = 'none';
+                            }
+                        }
+                </script>
+                
+
+                <div class="row">
+                    
+                    <p style="font-size:30px; text-align: center; color:white; font-family:Sevillana;margin-top:40px; margin-bottom: 50px; ">Our Mission</p>
+                </div>
+
+                <div class="row" id="intro">
+                     <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12">
+                        <p id="first-text">
+                            One of the main goals of this project is to make people pause and truly see. We live in an era where images bombard us 
+                            from every direction, often losing their impact. I want to use photography to slow down the pace, to create something 
+                            that lingers in the mind, making the viewer think, feel, and understand on a more profound level.
+                            This documentary is as much for the audience as it is for those I photograph. I aim to provide a platform for voices 
+                            that often go unheard. Every image will carry with it a story, whether it's the story of a person, a community, or even 
+                            a landscape. <br>
+                            In the end, my hope is that this project will make an impact, however small. I want it to be more than just a collection 
+                            of beautiful images; I want it to resonate, to inspire, and perhaps even to change how people view photography. If I 
+                            can achieve that, even in some small way, then I will consider this journey a success.
+                            Thank you for taking the time to read through my thoughts as I embark on this project. I'm excited about what lies 
+                            ahead, and I'm grateful for the opportunity to share this vision with you.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-9 col-sm-9 col-xs-12" style="display:flex; justify-content: center;">
+                        <img src="images/wine.jpg" id="chapel-img">
+                    </div>
+                   
+                </div>
+
+                <div class="row" style="display:flex; flex-direction:row; justify-content:center; margin-top:200px; background-color: black; position:relative">
+                    <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                    <p style="font-size:40px; text-align:center; color: white; margin-bottom: 80px;">Our Team</p>
+                    </div>
+                </div>
+
+                <div class="row" style="display:flex; flex-direction:row; justify-content:center; margin-bottom: 0px; background-color: black; position:relative">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <img src="images/pin.jpg" style="width: 100%; margin-bottom: 20px; height:300px; border-radius: 100%; border:2px solid gold">
+                        <span style=" color:gold">Martha Clement</span><br>
+                        <span><i style=" color:white">Videographer</i></span>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <img src="images/pin2.jpg" style="width: 100%; margin-bottom: 20px; border-radius: 100%; height:300px; border:2px solid gold">
+                        <span style=" color:gold">Peace Donatus</span><br>
+                        <span><i style=" color:white">Social Media Manager</i></span>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <img src="images/pin8.jpg" style="width: 100%; margin-bottom: 20px; border-radius: 100%; height:300px; border:2px solid gold">
+                        <span style=" color:gold">Stephanie Chimara</span><br>
+                        <span><i style=" color:white">Photographer & Photojournalist</i></span>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <img src="images/pin3.jpg" style="width: 100%; margin-bottom: 20px; border-radius: 100%; height:300px; border:2px solid gold">
+                        <span style=" color:gold">Henrietta Okeke</span><br>
+                        <span><i style=" color:white">Educator</i></span>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <img src="images/pin4.jpg" style="width: 100%; margin-bottom: 0px; border-radius: 100%; height:300px; border:2px solid gold">
+                        <span style=" color:gold">Mary-Jane Magnus</span><br>
+                        <span><i style=" color:white">Photo Editor</i></span>
+                    </div>
+                </div>
+                <div class="row" style="background-color:black; display:flex; flex-direction:row; margin-top:100px;justify-content: center;">
+                    <div style="display:flex; flex-direction:row; justify-content: left;width:23%">
+                        <span> <p><b class="bold">Address</b></p>
+                        <p><i class="italic">09 Fake St. Buwaya, <br>Gonin Gora,  <br>Kaduna, Nigeria</i></p></span>
+                    </div>
+                    
+                    <div style="display:flex; flex-direction:row; justify-content:left;width:23%">
+                        <span> <p><b class="bold">Phone</b></p>
+                        <p><i class="italic">+2348065259595</i></p></span>
+                    </div>
+                    
+                    <div style="display:flex; flex-direction:row; justify-content:left;width:23%">
+                        <span><p><b class="bold">Email Address</b></p>
+                        <p><i class="italic">anniechimara@gmail.com</i></p></span>
+                    </div>
+                </div>
+            </div>
+            <footer> 
+                <div class="row" style="background-color:grey;position:relative; display:flex; flex-direction:row; justify-content: center;">
+
+                    <div style="display:flex; flex-direction: column; margin-left: 40px;  margin-top: 40px;">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
+                            <img src="images/lcorrect.jpg" style="border-radius: 100%; width:100%;" >
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <p style="font-size:20px; text-align:center; color:black"><b>Regal Photos</b></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style=" margin-top: 40px;">
+                        <nav> 
+                            <h2 style="color:black; text-align:left;"><b>Quick Link</b></h2>
+                            <ul style="text-decoration:none; display:inline-block; color:black;text-align:left; border-radius:5px; transition:1s ; list-style:none;">                       
+                                <b><li><a href="Index.html" style="font-size:16px; color:black">Home</a></li></b>
+                                <b><li><a href="ppage2.html" style="font-size:16px; color:black">About</a></li></b>
+                                <b><li><span class="dropdown">
+                                    <a href="#" id="dropdownButton" style="font-size:16px; color:black">Gallery</a>
+                                    <div id="dropdownContent" class="dropdown-content">
+                                        <a href="landscapep.html" style="font-size:16px; color:black">Landscape</a>
+                                        <a href="portrait.html" style="font-size:16px; color:black">Portrait</a>
+                                        <a href="people.html" style="font-size:16px; color:black">People</a>
+                                        <a href="aesthetics.html" style="font-size:16px; color:black">Aesthetics</a>
+                                        <a href="food.html" style="font-size:16px; color:black">Food</a>
+                                        <a href="nature.html" style="font-size:16px; color:black">Nature</a>
+                                        <a href="sky.html" style="font-size:16px; color:black">Skies</a>
+                                        <a href="travel.html" style="font-size:16px; color:black">Travel</a>
+                                    </div></b>
+                                </span>
+                                <b><li><a href="contactp.html" style="font-size:16px; color:black">Contact</a></li></b>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style=" margin-top: 40px;">
+                        <div style="display:flex; flex-direction:row; justify-content: left;">
+                            <span><p><b class="bold">Address</b></p>
+                            <p><i class="italic">09 Fake St. Buwaya, Gonin Gora, Kaduna, Nigeria</i></p></span>
+                        </div>
+                        
+                        <div style="display:flex; flex-direction:row; justify-content:left;">
+                            <span> <p><b class="bold">Phone</b></p>
+                            <p><i class="italic">+2348065259595</i></p></span>
+                        </div>
+                        
+                        <div style="display:flex; flex-direction:row; justify-content:left;">
+                            <span><p><b class="bold">Email Address</b></p>
+                            <p><i class="italic">anniechimara@gmail.com</i></p></span>
+                        </div>
+                    </div>
+                </div>
+                <p style="background-color:black; color:white; text-align:center; font-size: 17px;">&copy;2024 Regal Photos</p>
+            </footer>
+        </body>
+
+        
+    </html>
+</DOCTYPE>

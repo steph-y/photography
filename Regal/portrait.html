@@ -1,0 +1,264 @@
+<DOCTYPE! html>
+    <html>
+        <head>
+            <title>Portrait Photos</title>
+            <meta name="viewport" content="width-device-width, initial-scale=1.0">
+            <meta name="description" content="Portfolio">
+            <meta name="keyword" content="portfolio, photography">
+
+            <link rel="stylesheet" href="bootstrap.css">
+            <link rel="stylesheet" href="portfolio.css">
+            <link rel="stylesheet" href="portrait.css">
+
+            <!-- <script>
+
+                
+
+                x = '';
+              
+                window.onload =function on_load(){
+                    x= document.getElementById("img_img");
+                    // x.style.display="none";
+                    
+                }
+
+                function click_i(){
+                    e = window.event;
+                    img = e.srcElement;
+                    
+                    display_img = e.srcElement.getAttribute("src");
+
+                   x.setAttribute("src",display_img);
+                  
+
+                    img1=document.getElementById("ene")
+                    img2=document.getElementById("favor")
+                    img3=document.getElementById("bess")
+                    img4=document.getElementById("twin")
+
+                    img1.style.filter="blur(0px)";
+                    img2.style.filter="blur(5px)";
+                    img3.style.filter="blur(5px)";
+                    img4.style.filter="blur(5px)";
+                }
+
+                function click_t(){
+                    e = window.event;
+                    img = e.srcElement;
+                    
+                    display_img = e.srcElement.getAttribute("src");
+
+                   x.setAttribute("src",display_img);
+                   
+
+                   img1=document.getElementById("ene")
+                    img2=document.getElementById("favor")
+                    img3=document.getElementById("bess")
+                    img4=document.getElementById("twin")
+                    
+                    img1.style.filter="blur(5px)";
+                    img2.style.filter="blur(0px)";
+                    img3.style.filter="blur(5px)";
+                    img4.style.filter="blur(5px)";
+                }
+
+                function click_m(){
+                    e = window.event;
+                    img = e.srcElement;
+                    
+                    display_img = e.srcElement.getAttribute("src");
+
+                   x.setAttribute("src",display_img);
+                    
+
+                   img1=document.getElementById("ene")
+                    img2=document.getElementById("favor")
+                    img3=document.getElementById("bess")
+                    img4=document.getElementById("twin")
+                    
+                    img1.style.filter="blur(5px)";
+                    img2.style.filter="blur(5px)";
+                    img3.style.filter="blur(0px)";
+                    img4.style.filter="blur(5px)";
+
+                }
+
+                function click_s(){
+                    e = window.event;
+                    img = e.srcElement;
+                    
+                    display_img = e.srcElement.getAttribute("src");
+
+                   x.setAttribute("src",display_img);
+                  
+
+                   img1=document.getElementById("ene")
+                    img2=document.getElementById("favor")
+                    img3=document.getElementById("bess")
+                    img4=document.getElementById("twin")
+                    
+                    img1.style.filter="blur(5px)";
+                    img2.style.filter="blur(5px)";
+                    img3.style.filter="blur(5px)";
+                    img4.style.filter="blur(0px)";
+
+                }
+
+            </script> -->
+        </head>
+
+        
+
+        <body>
+            <div class="container-fluid" style="position:relative; background-color: black;">
+                <div class="row" style="display:flex; flex-direction:row; justify-content:right">
+                    <div class="col-lg-4 col-md-6 col-sm-9 col-xs-12">
+                        <nav> 
+                            <ul class="header-ul">                       
+                                <li><a href="Index.html">Home</a></li>
+                                <li><a href="ppage2.html">About</a></li> 
+                                <li><span class="dropdown">
+                                    <a href="#" id="dropdownButton">Gallery</a>
+                                    <div id="dropdownContent" class="dropdown-content">
+                                        <a href="landscapep.html">Landscape</a>
+                                        <a href="portrait.html">Portrait</a>
+                                        <a href="people.html">People</a>
+                                        <a href="aesthetics.html">Aesthetics</a>
+                                        <a href="food.html">Food</a>
+                                        <a href="nature.html">Nature</a>
+                                        <a href="sky.html">Skies</a>
+                                        <a href="travel.html">Travel</a>
+                                    </div>
+                                </span>
+                                <li><a href="contactp.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <script>
+                    // Get the button and content elements
+                    var dropdownButton = document.getElementById('dropdownButton');
+                        var dropdownContent = document.getElementById('dropdownContent');
+        
+                        // Add a click event to the button
+                        dropdownButton.addEventListener('click', function() {
+                            // Toggle the visibility of the dropdown content
+                            if (dropdownContent.style.display === 'block') {
+                                dropdownContent.style.display = 'none';
+                            } else {
+                                dropdownContent.style.display = 'block';
+                            }
+                        });
+        
+                        // Close the dropdown if the user clicks outside of it
+                        window.onclick = function(event) {
+                            if (!event.target.matches('#dropdownButton')) {
+                                dropdownContent.style.display = 'none';
+                            }
+                        }
+                </script>
+                <header>
+                    <div class="row" id="first-div">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"> 
+                            <img src="images/lcorrect.jpg" id="first-img">
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                            <p class="gradient-text" id="gradient-text">Regal Photos</p>
+                        </div>
+                    </div>
+                </header><br> <br> <br> <br>
+
+
+                <div class="row">
+                    <p style="font-size: 40px; color:white; margin-top:40px; text-align:center; font-family:sevillana">Portrait Photos</p>
+                </div><br> <br> <br>
+
+                <!-- <span style="display:flex;  justify-content:center;">
+                    <img  id="img_img" style="border-radius:10px;  margin-top: 20px;position:absolute; top:200px; z-index:10; margin-bottom: 20px; width:40%; height:450px; ;"></span> -->
+
+                <!-- <div class="row" style="display:flex; flex-direction:row; justify-content:center"> -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="ene.html">
+                            <img src="images/ene.jpg" alt="Clickable Image" class="photos"></a>
+                        <!-- <img src="images/ene.jpg" id="ene" onclick="click_i()" class="photos"> -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="favorite.html">
+                            <img src="images/favorite.jpg" alt="Clickable Image" class="photos"></a>
+                        <!-- <img src="images/favorite.jpg" id="favor" onclick="click_t()" class="photos"> -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="bess.html">
+                            <img src="images/bess.jpg" alt="Clickable Image" class="photos"></a>
+                        <!-- <img src="images/bess.jpg" id="bess" onclick="click_m()" class="photos"> -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="twinnie.html">
+                            <img src="images/twins.jpg" alt="Clickable Image" class="photos"></a>
+                        <!-- <img src="images/twins.jpg" id="twin" onclick="click_s()" class="photos"> -->
+                    </div>
+                <!-- </div> -->
+
+                <footer> 
+                    <div class="row" style="background-color:grey;position:relative; display:flex; flex-direction:row; justify-content: center;">
+
+                        <div style="display:flex; flex-direction: column; margin-left: 40px;  margin-top: 40px;">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
+                                <img src="images/lcorrect.jpg" style="border-radius: 100%; width:100%;" >
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                <p style="font-size:20px; text-align:center; color:black"><b>Regal Photos</b></p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style=" margin-top: 40px;">
+                            <nav> 
+                                <h2 style="color:black; text-align:left;"><b>Quick Link</b></h2>
+                                <ul style="text-decoration:none; display:inline-block; color:black;text-align:left; border-radius:5px; transition:1s ; list-style:none;">                       
+                                    <b><li><a href="Index.html" style="font-size:16px; color:black">Home</a></li></b>
+                                    <b><li><a href="ppage2.html" style="font-size:16px; color:black">About</a></li></b>
+                                    <b><li><span class="dropdown">
+                                        <a href="#" id="dropdownButton" style="font-size:16px; color:black">Gallery</a>
+                                        <div id="dropdownContent" class="dropdown-content">
+                                            <a href="landscapep.html" style="font-size:16px; color:black">Landscape</a>
+                                            <a href="portrait.html" style="font-size:16px; color:black">Portrait</a>
+                                            <a href="people.html" style="font-size:16px; color:black">People</a>
+                                            <a href="aesthetics.html" style="font-size:16px; color:black">Aesthetics</a>
+                                            <a href="food.html" style="font-size:16px; color:black">Food</a>
+                                            <a href="nature.html" style="font-size:16px; color:black">Nature</a>
+                                            <a href="sky.html" style="font-size:16px; color:black">Skies</a>
+                                            <a href="travel.html" style="font-size:16px; color:black">Travel</a>
+                                        </div></b>
+                                    </span>
+                                    <b><li><a href="contactp.html" style="font-size:16px; color:black">Contact</a></li></b>
+                                </ul>
+                            </nav>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style=" margin-top: 40px;">
+                            <div style="display:flex; flex-direction:row; justify-content: left;">
+                                <span><p><b class="bold">Address</b></p>
+                                <p><i class="italic">09 Fake St. Buwaya, Gonin Gora, Kaduna, Nigeria</i></p></span>
+                            </div>
+                            
+                            <div style="display:flex; flex-direction:row; justify-content:left;">
+                                <span> <p><b class="bold">Phone</b></p>
+                                <p><i class="italic">+2348065259595</i></p></span>
+                            </div>
+                            
+                            <div style="display:flex; flex-direction:row; justify-content:left;">
+                                <span><p><b class="bold">Email Address</b></p>
+                                <p><i class="italic">anniechimara@gmail.com</i></p></span>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="background-color:black; color:white; text-align:center; font-size: 17px;">&copy;2024 Regal Photos</p>
+                </footer>
+            </div>
+        </body>
+        
+    </html>

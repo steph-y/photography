@@ -1,0 +1,208 @@
+<DOCTYPE! html>
+    <html>
+        <head>
+            <title>Regal Photos</title>
+            <meta name="viewport" content="width-device-width, initial-scale=1.0">
+            <meta name="description" content="Portfolio">
+            <meta name="keyword" content="portfolio, photography">
+
+            <link rel="stylesheet" href="bootstrap.css">
+            <link rel="stylesheet" href="portfolio.css">
+            <link rel="stylesheet" href="index.css">
+
+            <script src="https://kit.fontawesome.com/45663121b4.js" crossorigin="anonymous"></script>
+        </head>
+
+        <body>
+            <div class="container-fluid" style="position:relative; background-color: black;">
+                <div class="row" id="first-row">
+                    <div class="col-lg-4 col-md-6 col-sm-9 col-xs-12">
+                        <button class="btn1"><i class="fa-solid fa-bars"></i></button>
+                        <nav> 
+                            <ul class="header-ul">                       
+                                <li><a href="Index.html">Home</a></li>
+                                <li><a href="ppage2.html">About</a></li>
+                                <li><span class="dropdown">
+                                    <a href="#" id="dropdownButton">Gallery</a>
+                                    <div id="dropdownContent" class="dropdown-content">
+                                        <a href="landscapep.html">Landscape</a>
+                                        <a href="portrait.html">Portrait</a>
+                                        <a href="people.html">People</a>
+                                        <a href="aesthetics.html">Aesthetics</a>
+                                        <a href="food.html">Food</a>
+                                        <a href="nature.html">Nature</a>
+                                        <a href="sky.html">Skies</a>
+                                        <a href="travel.html">Travel</a>
+                                    </div>
+                                </span>
+                                <li><a href="contactp.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <script>
+                    // Get the button and content elements
+                    var dropdownButton = document.getElementById('dropdownButton');
+                        var dropdownContent = document.getElementById('dropdownContent');
+        
+                        // Add a click event to the button
+                        dropdownButton.addEventListener('click', function() {
+                            // Toggle the visibility of the dropdown content
+                            if (dropdownContent.style.display === 'block') {
+                                dropdownContent.style.display = 'none';
+                            } else {
+                                dropdownContent.style.display = 'block';
+                            }
+                        });
+        
+                        // Close the dropdown if the user clicks outside of it
+                        window.onclick = function(event) {
+                            if (!event.target.matches('#dropdownButton')) {
+                                dropdownContent.style.display = 'none';
+                            }
+                        }
+                </script>
+                <header>
+                    <div class="row" id="first-div">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"> 
+                            <img src="images/lcorrect.jpg" id="first-img">
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                            <p class="gradient-text" id="gradient-text">Regal Photos</p>
+                        </div>
+                    </div>
+                </header><br> <br> <br> <br>
+            
+                <div class="row" id="intro">
+                    <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12">
+                        <p id="first-text">Hi, I'm Stephanie. I'm a photographer with a passion 
+                            for capturing life's precious moments.<br>
+                            In my portfolio, you will find diverse portraits capturing the unique essence of individuals in various settings.
+                            You will also find stunning landscapes showcasing the natural world in its most compelling form and many more varieties.<br>
+                        Story-telling through imagery. Its Regal... </p> 
+                    </div>
+                    <div class="col-lg-3 col-md-9 col-sm-9 col-xs-12" style="display:flex; justify-content: center;">
+                        <img src="images/chapel.jpg" id="chapel-img">
+                    </div>
+                </div><br> <br> <br> <br> <br>
+
+                <!-- <div class="row" style="position:relative; display:flex; flex-direction:row; justify-content:center;background-color: black;"> -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="landscapep.html"><img src="images/garden.jpg" class="landscape"> <br> <br>
+                        <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; 
+                            font-family:Sevillana; font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Landscape</p></a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="people.html"><img src="images/babe.jpg" class="landscape"><br> <br>
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; 
+                            font-family:Sevillana; font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">People</div></a> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="food.html"><img src="images/food.jpg" class="landscape"><br> <br>
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; 
+                            font-family:Sevillana; font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Food</div></a> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="aesthetics.html"><img src="images/horizon.jpg" class="landscape"><br> <br>
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; 
+                            font-family:Sevillana; font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Aesthetics</div></a> 
+                    </div>
+                <!-- </div> -->
+
+                <!-- <div class="row" style="position:relative; display:flex; flex-direction:row; margin-bottom:0px;justify-content:center; background-color: black;"> -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="nature.html"><img src="images/green.jpg" class="landscape"><br> <br>
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; 
+                            font-family:Sevillana; font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Nature</div></a> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="sky.html"><img src="images/elect.jpg" class="landscape"><br> <br>
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; 
+                            font-family:Sevillana; font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Skies</div></a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="travel.html"><img src="images/north.jpg" class="landscape"><br> <br>
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; 
+                            font-family:Sevillana; font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Travel</div></a> 
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <a href="portrait.html"><img src="images/bess.jpg" class="landscape"><br> <br>
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; 
+                            font-family:Sevillana; font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Portrait</div></a> 
+                    </div>
+                <!-- </div> -->
+
+            </div>
+            <footer  >
+                <div class="row" id="footer">
+
+                    
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-9" style="display:flex; flex-direction: column; margin-top: 40px; justify-content: center"> 
+                    <div >
+                        <img src="images/lcorrect.jpg" id="logo">
+                    </div>
+                    <div id="regal">
+                        <p ><b>Regal Photos</b></p>
+                    </div>
+                </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-9 col-xs-12" style=" margin-top: 40px; display:flex; justify-content:left; ">
+                        <nav> 
+                            <p id="link"><b>Quick Link</b></p>
+                            <ul id="footer-ul">                       
+                                <b><li><a href="Index.html" style=" color:black">Home</a></li></b>
+                                <b><li><a href="ppage2.html" style=" color:black">About</a></li></b>
+                                <b><li><span class="dropdown">
+                                    <a href="#" id="dropdownButton" style="font-size:16px; color:black">Gallery</a>
+                                    <div id="dropdownContent" class="dropdown-content">
+                                        <a href="landscapep.html" style="font-size:16px; color:black">Landscape</a>
+                                        <a href="portrait.html" style="font-size:16px; color:black">Portrait</a>
+                                        <a href="people.html" style="font-size:16px; color:black">People</a>
+                                        <a href="aesthetics.html" style="font-size:16px; color:black">Aesthetics</a>
+                                        <a href="food.html" style="font-size:16px; color:black">Food</a>
+                                        <a href="nature.html" style="font-size:16px; color:black">Nature</a>
+                                        <a href="sky.html" style="font-size:16px; color:black">Skies</a>
+                                        <a href="travel.html" style="font-size:16px; color:black">Travel</a>
+                                    </div></b>
+                                </span>
+                                <b><li><a href="contactp.html" style="color:black">Contact</a></li></b>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-9 col-xs-12" style=" margin-top: 40px;justify-content:left;">
+                        <div style="display:flex; flex-direction:row; ">
+                            <span><p><b class="bold">Address</b></p>
+                            <p><i class="italic">09 Fake St. Buwaya, Gonin Gora, Kaduna, Nigeria</i></p></span>
+                        </div>
+                        
+                        <div style="display:flex; flex-direction:row;">
+                            <span> <p><b class="bold">Phone</b></p>
+                            <p><i class="italic">+2348065259595</i></p></span>
+                        </div>
+                        
+                        <div style="display:flex; flex-direction:row;">
+                            <span><p><b class="bold">Email Address</b></p>
+                            <p><i class="italic">anniechimara@gmail.com</i></p></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="clear:left">
+                    <p style="background-color:black; color:white; text-align:center; font-size: 17px;">&copy;2024 Regal Photos</p>
+                    
+                </div>
+            </footer>
+            
+        </body>
+
+        
+    </html>
+</DOCTYPE>
